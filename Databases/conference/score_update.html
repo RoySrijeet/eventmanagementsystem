@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Score</title>
+	<link rel="stylesheet" type="text/css" href="css/score_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Scores</h1>
+		<form action="" method="POST">
+			<p>Paper ID</p><input type="number" name="p_id" placeholder="Enter Paper ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Paper ID'" required>
+			<p>Reviewer ID</p><input type="number" name="reviewer_id" placeholder="Enter Reviewer ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Reviewer ID'" required>
+			<p><em>What do you want to update?</em></p><br>
+			<p>Technical Merit</p><input type="number" name="technical_merit" placeholder="Score on Technical Merit" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Score on Technical Merit'" >
+			<p>Readability</p><input type="number" name="readability" placeholder="Score on Readability" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Score on Readability'" >
+			<p>Originality</p><input type="number" name="originality" placeholder="Score on Originality" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Score on Originality'" >
+			<p>Relevance</p><input type="number" name="relevance" placeholder="Score on Relevance" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Score on Relevance'" required>
+			<p>Recommendation</p><input type="checkbox" name="recommendation">
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

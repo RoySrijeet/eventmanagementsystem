@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Artist</title>
+	<link rel="stylesheet" type="text/css" href="css/artist_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Update Artist Details</h1>
+		<form action="updateartist.php" method="POST">
+			<p>Artist ID</p><input type="number" name="artist_id" placeholder="Enter Artist ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Artist ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Name</p><input type="text" name="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
+			<p>Birthplace</p><input type="text" name="birthplace" placeholder="Enter Birthplace" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Birthplace'">
+			<p>Date of Birth</p><input type="date" name="dob" placeholder="Enter Date of Birth" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Date of Birth'"">
+			<p>Style</p><input type="text" name="style" placeholder="Enter Style" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Style'">
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

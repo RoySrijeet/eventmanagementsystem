@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Stock</title>
+	<link rel="stylesheet" type="text/css" href="css/stock_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add New Item to Stock</h1>
+		<form action="insertstock.php" method="POST">
+			<p>Food Name</p><input type="text" name="food_name" placeholder="Enter Food Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Food Name'" required>
+			<p>Food Type</p><input type="text" name="food_type" placeholder="food/beverage (Mainatain case)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'food/beverage (Mainatain case)'" required>
+			<p>Price/Unit</p><input type="number" name="price" placeholder="Enter Price/Unit" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Price/Unit'" required>
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

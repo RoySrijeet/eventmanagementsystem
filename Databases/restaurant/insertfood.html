@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Food Details</title>
+	<link rel="stylesheet" type="text/css" href="css/upi_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add Food Description</h1>
+		<form action="insertfood.php" method="POST">
+			<p>Food Description</p><input type="text" name="description" placeholder="Enter Food Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Food Description'" required>
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

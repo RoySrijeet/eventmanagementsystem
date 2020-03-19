@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete:Score</title>
+	<link rel="stylesheet" type="text/css" href="css/score_delete_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/minus.png" class="add">
+		<h1>Delete a Score</h1>
+		<form action="deletescore.php" method="POST">
+			<p>Paper ID</p><input type="number" name="paper_id" placeholder="Enter Paper ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Paper ID'" required>
+			<p>Reviewer ID</p><input type="number" name="reviewer_id" placeholder="Enter Reviewer ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Reviewer ID'" required>
+			<input type="submit" name="" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

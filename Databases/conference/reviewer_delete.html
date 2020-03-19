@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete:Reviewer</title>
+	<link rel="stylesheet" type="text/css" href="css/author_delete_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/minus.png" class="add">
+		<h1>Delete an Reviewer</h1>
+		<form action="deletereviewer.php" method="POST">
+			<p>Reviewer ID</p><input type="number" name="reviewer_id" placeholder="Enter Reviewer ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Reviewer ID'" required>
+			<input type="submit" name="" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

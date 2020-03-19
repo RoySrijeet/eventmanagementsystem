@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Customer Address</title>
+	<link rel="stylesheet" type="text/css" href="css/address_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Update Customer Address</h1>
+		<form action="updateaddress.php" method="POST">
+			<p>Customer ID</p><input type="number" name="cid" placeholder="Enter Customer ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Customer ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>House No.</p><input type="number" name="house_no" placeholder="Enter House No." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter House No.'">
+			<p>Street</p><input type="text" name="street" placeholder="Enter Street" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Street'">
+			<p>City</p><input type="text" name="street" placeholder="Enter City" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter City'">
+			<p>ZIP</p><input type="number" name="zip" placeholder="Enter ZIP" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter ZIP'">
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

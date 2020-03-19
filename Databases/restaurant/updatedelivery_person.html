@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Delivery Person</title>
+	<link rel="stylesheet" type="text/css" href="css/delivery_person_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Delivery Person Details</h1>
+		<form action="updatedelivery_person.php" method="POST">
+			<p>Delivery Person ID</p><input type="number" name="did" placeholder="Enter Delivery Person ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Delivery Person ID'" required>
+			<p><em>What do you want to change?</em></p>
+			<p>Name</p><input type="text" name="dp_name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'">
+			<p>Gender</p><input type="text" name="gender" placeholder="male/female (Maintain case)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'male/female (Maintain case)'">
+			<p>Date of Birth</p><input type="date" name="dob" placeholder="Enter Date of Birth" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Date of Birth'">
+			<p>Phone Number</p><input type="text" name="phone" placeholder="Enter Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone Number'">
+			<p>Area Code</p><input type="number" name="area_code" placeholder="Enter Area Code" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Area Code'">
+			<p>Rating</p><input type="number" step="0.1" name="rating" placeholder="Enter Rating" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Rating'">
+			<p>Salary</p><input type="number" name="salary" placeholder="Enter Salary" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Salary'" >
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

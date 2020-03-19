@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(art_gallery.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.registerbox{
+	width: 450px;
+	height: 550px;
+	background: #DCDCDC;
+	opacity: 0.9;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%); 
+	box-sizing: border-box;
+	padding: 60px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+
+.registerbox h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	color: #000;
+	font-size: 22px;
+}
+
+.registerbox p{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-weight: bold;
+}
+
+.registerbox input[type="text"]{
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 0.5px solid #000;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 14px;
+}
+
+.registerbox input[type="password"]{
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 14px;
+}
+
+.registerbox input::placeholder {
+	color: #000;
+	opacity: 0.5;
+	font-size: 12px;
+}
+
+.registerbox input[type="submit"]{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.registerbox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #808B96;
+	color: #fff;
+	font-weight: bold;
+}
+
+.registerbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+}
+
+.registerbox a:hover {
+	color: #808B96;
+}
+

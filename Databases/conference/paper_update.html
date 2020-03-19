@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Paper</title>
+	<link rel="stylesheet" type="text/css" href="css/paper_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Paper Details</h1>
+		<form action="" method="POST">
+			<p>Paper ID</p><input type="number" name="p_id" placeholder="Enter Paper ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Paper ID'" required>
+			<p><em>What do you want to update?</em></p><br>
+			<p>Paper Title</p><input type="text" name="title" placeholder="Enter Paper Title" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Paper Title'">
+			<p>Contact Author ID</p><input type="number" name="contact_author" placeholder="Enter Contact Author" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Contact Author'">
+			<p>Author ID (Other than Contact Author)</p><input type="number" name="author" placeholder="Enter Author" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Author'">
+			<p>Abstract</p><input type="text" name="abstract" placeholder="Enter Paper Abstract" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Paper Abstract'">
+			<p>E-File</p><input type="text" name="e-file" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email'">
+			<p>Date of Submission</p><input type="date" name="date_of_submission" placeholder="Enter Date of Submission" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Date of Submission'">
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Payment</title>
+	<link rel="stylesheet" type="text/css" href="css/payment_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Payment Details</h1>
+		<form action="updatepayment.php" method="POST">
+			<p>Payment ID</p><input type="number" name="pid" placeholder="Enter Payment ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Payment ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Payment Mode</p><input type="text" name="mode" placeholder="cash/upi/card (Maintain case)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'cash/upi/card (Maintain case)'">
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

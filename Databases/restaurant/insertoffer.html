@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Restaurant Offer</title>
+	<link rel="stylesheet" type="text/css" href="css/offer_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add New Offer</h1>
+		<form action="insertoffer.php" method="POST">
+			<p>Offer Name</p><input type="text" name="offer_name" placeholder="Enter Offer Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Name'" required>
+			<p>Amount</p><input type="number" name="amount" placeholder="Enter Offer Amount" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Amount'" required>
+			<p>Description</p><input type="text" name="description" placeholder="Enter Offer Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Description'" required>
+			
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

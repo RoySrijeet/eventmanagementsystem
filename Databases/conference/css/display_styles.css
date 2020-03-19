@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background: url(conference.jpg);
+	
+	font-family: sans-serif;
+}
+
+p{
+	padding: 20px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	opacity: 0.8;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.logout{
+	display: flex;
+	justify-content: space-between;
+}
+
+.submit{
+	display: flex;
+	justify-content: center;
+}

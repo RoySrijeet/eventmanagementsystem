@@ -1,0 +1,23 @@
+<?php
+echo "<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/register_style.css">
+</head>
+<body>
+	<div class="registerbox">
+		<img src="css/avatar.png" class="avatar">
+		<h1>Conference</h1>
+		<form action="registration.php" method= "POST">
+			<p>First Name</p><input type="text" name="firstname" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required>
+			<p>Last Name</p><input type="text" name="lastname" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required>
+			<p>Username</p><input type="text" name="username" placeholder="Enter Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Username'" required>
+			<p>Create Password</p><input type="password" name="pw" placeholder="Create New Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Create New Password'" required>
+			<p>Confirm Password</p><input type="password" name="confirm_pw" placeholder="Re-enter the Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Re-enter the Password'" required="">
+			<input type="submit" name="" value="Register">
+			<a href="login.html">Already have an account?</a>
+		</form>	
+	</div>
+</body>
+</html>";
+?>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Customer</title>
+	<link rel="stylesheet" type="text/css" href="css/customer_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add New Customer</h1>
+		<form action="insertcustomer.php" method="POST">
+			<p>Name</p><input type="text" name="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'" required>
+			<p>Phone Number</p><input type="text" name="phn" placeholder="Enter Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone Number'" required>
+			<p>Amount Spent</p><input type="number" name="amount_spent" placeholder="Enter Amount Spent" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Amount Spent'" required>
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

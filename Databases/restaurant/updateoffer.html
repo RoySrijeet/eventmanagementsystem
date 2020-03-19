@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Restaurant Offer</title>
+	<link rel="stylesheet" type="text/css" href="css/offer_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Offer Details</h1>
+		<form action="updateoffer.php" method="POST">
+			<p>Offer ID</p><input type="number" name="offer_id" placeholder="Enter Offer ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Offer Name</p><input type="text" name="offer_name" placeholder="Enter Offer Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Name'">
+			<p>Amount</p><input type="number" name="amount" placeholder="Enter Offer Amount" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Amount'">
+			<p>Description</p><input type="text" name="description" placeholder="Enter Offer Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Offer Description'">
+			
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

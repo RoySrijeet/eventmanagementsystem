@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete:Artwork</title>
+	<link rel="stylesheet" type="text/css" href="css/artist_delete_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/minus.png" class="add">
+		<h1>Delete an Artwork</h1>
+		<form action="deleteartwork.php" method="POST">
+			<p>Artwork ID</p><input type="number" name="artwork_id" placeholder="Enter Artwork ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Artwork ID'" required>
+			<input type="submit" name="" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

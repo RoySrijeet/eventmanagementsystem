@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Card Details</title>
+	<link rel="stylesheet" type="text/css" href="css/payment_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add Card Details</h1>
+		<form action="insertcard.php" method="POST">
+			<p>Bank name</p><input type="text" name="bank" placeholder="Enter Bank Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Bank Name'" required>
+			<p>Card No.</p><input type="number" name="card_no" placeholder="Enter Card No." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Card No.'" required>
+			<p>Cardholder Name</p><input type="text" name="cardholder" placeholder="Enter Cardholder Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Cardholder Name'" required>
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

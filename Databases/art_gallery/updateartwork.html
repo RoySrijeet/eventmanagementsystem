@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Artwork</title>
+	<link rel="stylesheet" type="text/css" href="css/artwork_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Update Artwork Details</h1>
+		<form action="updateartwork.php" method="POST">
+			<p>Artwork ID</p><input type="number" name="artwork_id" placeholder="Enter Artwork ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Artowork ID'" required>			
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Title</p><input type="text" name="title" placeholder="Enter Title" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Title'">
+			<p>Artist</p><input type="text" name="artist" placeholder="Enter Artist Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Artist Name'" >
+			<p>Artgroup</p><input type="text" name="artgroup" placeholder="Enter Artgroup" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Artgroup'" >
+			<p>Year</p><input type="number" name="year" placeholder="Enter Year" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Year'" >
+			<p>Price</p><input type="number" name="price" placeholder="Enter Price" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Price'" >
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

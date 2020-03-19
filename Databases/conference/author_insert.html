@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Author</title>
+	<link rel="stylesheet" type="text/css" href="css/author_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add New Author</h1>
+		<form action="insertauthor.php" method="POST">
+			<p>Name</p><input type="text" name="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'" required>
+			<p>Email ID</p><input type="email" name="email" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email'" required>
+			<p>City</p><input type="text" name="city" placeholder="Enter City" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter City'" required>
+			<p>Country</p><input type="text" name="country" placeholder="Enter Country" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Country'" required>
+			<p>Phone Number</p><input type="text" name="phone"  placeholder="Enter Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone Number'" required>
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:Topic</title>
+	<link rel="stylesheet" type="text/css" href="css/topic_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add New Topic of Interest</h1>
+		<form action="inserttopic.php" method="POST">
+			<p>Name of the Topic</p><input type="text" name="name" placeholder="Enter Topic Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'" required>			
+			<p>Description</p><input type="text" name="description" placeholder="Enter Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Description'" required>
+			<input type="submit" name="" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

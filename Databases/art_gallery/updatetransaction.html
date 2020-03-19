@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Transaction</title>
+	<link rel="stylesheet" type="text/css" href="css/transaction_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Update Transaction Details</h1>
+		<form action="inserttransaction.php" method="POST">
+			<p>Transaction ID</p><input type="number" name="trans_no" placeholder="Enter Transaction ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Transaction ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Date of Transaction</p><input type="date" name="date" placeholder="Enter Date of Transaction" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Date of Transaction'">
+			<p>Payment Mode</p><input type="text" name="payment_mode" placeholder="Enter Mode of Payment" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Mode of Payment'">
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

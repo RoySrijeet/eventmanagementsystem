@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background: url(art_gallery.jpg);
+	background-position: center;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 400px;
+	height: 240px;
+	background: #DCDCDC;
+	opacity: 0.9;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%); 
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.error{
+	width: 120px;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: -65px;
+	left: calc(50% - 55px);
+}
+
+
+.loginbox h1{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	color: #000;
+	font-size: 22px;
+}
+
+.loginbox a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 22px;
+	line-height: 20px;
+	color: #000;
+}
+
+.loginbox a:hover {
+	color: #808B96;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Update:Order</title>
+	<link rel="stylesheet" type="text/css" href="css/order_update_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/update.png" class="add">
+		<h1>Update Order Details</h1>
+		<form action="updateorders.php" method="POST">
+			<p>Order ID</p><input type="number" name="order_id" placeholder="Enter Order ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Order ID'" required>
+			<p><em>What do you want to change?</em></p> <br>
+			<p>Order Type</p><input type="text" name="order_type" placeholder="dine_in/phone/online (Maintain case)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'dine_in/phone/online (Maintain case)'">
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>

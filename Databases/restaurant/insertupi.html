@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'/>
+	<title>Insert:UPI Details</title>
+	<link rel="stylesheet" type="text/css" href="css/upi_insert_styles.css">
+</head>
+<body>
+	<div class='logout'><a href="home.html">Home</a><a href="logout.php">Log Out</a> </div>	
+	<div class="insertbox">
+		<img src="css/add.png" class="add">
+		<h1>Add UPI Details</h1>
+		<form action="insertupi.php" method="POST">
+			<p>UPI Application Name</p><input type="text" name="upi" placeholder="Enter UPI App Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter UPI App Name'" required>
+			<input type="submit" value="Submit">
+		</form>	
+	</div>
+</body>
+</html>
